@@ -8,14 +8,39 @@
 nav {
     display: flex;
     flex-direction: row;
-    color: red;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+nav > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 5vh;
+    border: 1px solid black;
+    background-color: rgb(161, 140, 148);
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: rgb(161, 155, 155)
+}
+
+header > h1 {
+    background-color: inherit;
 }
 
 .box {
-    width: 100%;
     height: 20vh;
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
-    background-color: aqua;
+    background-color: rgb(198, 201, 201);
 }
