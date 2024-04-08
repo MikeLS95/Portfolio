@@ -65,8 +65,10 @@ footer {
     background-color: rgb(161, 155, 155)
 }
 
-footer > img {
-    display: flex;
+#sociallink {
+    display:flex;
+    width:5%;
+    background-color: transparent;
 }
 
 footer > h4 {
