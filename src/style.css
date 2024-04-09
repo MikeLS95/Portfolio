@@ -50,6 +50,7 @@ header > h1 {
     display:flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     border: 1px solid black;
     margin: 10px;
     padding: 5px;
@@ -72,6 +73,7 @@ footer {
     width: 100%;
     margin: 2px;
     background-color: rgb(161, 155, 155);
+    font-size: 1rem;
   }
   
   .social {
@@ -79,8 +81,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    margin: 0.5em;
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .copyright {
@@ -88,7 +89,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.5em;
+    font-size: 1rem;
   }
   
   .social li > a {
@@ -112,6 +113,10 @@ footer {
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    .content img {
+        width: 7rem;
+        height: 7rem;
+    }
 }
 
 @media only screen and (min-width:1051px) {
@@ -119,6 +124,10 @@ footer {
         width: 10%;
         margin: 0.2rem;
         margin-bottom: 1rem;
+    }
+    .content img {
+        width: 10rem;
+        height: 10rem;
     }
 
 }
