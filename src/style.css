@@ -75,12 +75,10 @@ p {
 }
 
 footer {
-    position: inherit;
+    bottom: 0;
     display: flex;
     justify-content: space-around;
-    align-content: flex-end;
     height: 10vh;
-    width: 100%;
     margin: 2px;
     background-color: rgb(161, 155, 155);
     font-size: 1rem;
@@ -92,6 +90,7 @@ footer {
     align-items: center;
     list-style: none;
     font-size: 2em;
+    flex-grow: 1;
   }
 
   .copyright {
@@ -138,6 +137,18 @@ footer {
     .content img {
         width: 10rem;
         height: 10rem;
+    }
+    header {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .content {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    footer {
+        margin-left: 8rem;
+        margin-right: 8rem;
     }
 
 }
