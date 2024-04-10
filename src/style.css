@@ -42,8 +42,16 @@ header {
     background-color: rgb(161, 155, 155)
 }
 
-header > h1 {
-    background-color: inherit;
+h2 {
+    margin: 5px;
+}
+
+h3, h4 {
+    margin: 2px;
+}
+
+p {
+    margin-bottom: 4px;
 }
 
 .content {
@@ -67,8 +75,10 @@ header > h1 {
 }
 
 footer {
+    position: inherit;
     display: flex;
     justify-content: space-around;
+    align-content: flex-end;
     height: 10vh;
     width: 100%;
     margin: 2px;
