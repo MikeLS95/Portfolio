@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(197, 195, 195);
 }
 
 nav {
@@ -39,7 +39,7 @@ header {
     justify-content: center;
     height: 10vh;
     margin: 2px;
-    background-color: rgb(161, 155, 155)
+    background-color: rgb(161, 155, 155);
 }
 
 h2 {
@@ -74,22 +74,30 @@ p {
     margin: 10px;
 }
 
+.contact {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin: 3rem;
+    padding: 5px;
+    background-color: rgb(198, 201, 201);
+}
+
 footer {
-    bottom: 0;
     display: flex;
     justify-content: space-around;
     height: 10vh;
     margin: 2px;
     background-color: rgb(161, 155, 155);
-    font-size: 1rem;
   }
   
   .social {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    font-size: 2em;
     flex-grow: 1;
   }
 
@@ -98,34 +106,50 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
   }
   
-  .social li > a {
-    display: flex;
-    justify-content: space-around;
+  .social-icon {
+    display:flex;
+    justify-content: center;
     color: #000000;
-    text-decoration: none; 
+    text-decoration: none;
+    font-size: 7vh;
+    font-size: 7vw;
   }
- 
-  /* Social icon customisation */
-    /* #social li .social-icon {
-    font-size: 3rem;
-  } */
 
 @media only screen and (min-width:663px) and (max-width:1050px){
-    nav {
-        align-items:end;
-    }
+
     nav div {
         width: 15%;
         margin-left: 1rem;
         margin-right: 1rem;
     }
+
+    header{
+        font-size: 1.75rem;
+    }
+
+    .content{
+        font-size: 1.75rem;
+    }
+    
+    .contact{
+        font-size: 1.75rem;
+    }
+
     .content img {
         width: 7rem;
         height: 7rem;
     }
+
+    footer {
+        font-size: 1.5rem;
+    }
+
+    .social-icon {
+        font-size: 5vh;
+        font-size: 5vw;
+      }
 }
 
 @media only screen and (min-width:1051px) {
@@ -134,21 +158,39 @@ footer {
         margin: 0.2rem;
         margin-bottom: 1rem;
     }
+
     .content img {
         width: 10rem;
         height: 10rem;
     }
+
     header {
         margin-left: 8rem;
         margin-right: 8rem;
+        font-size: 1.5rem;
     }
+
     .content {
         margin-left: 10rem;
         margin-right: 10rem;
+        font-size: 1.5rem;
     }
+
+    .contact {
+        margin-left: 11rem;
+        margin-right: 11rem;
+        font-size: 1.5rem;
+    }
+
     footer {
         margin-left: 8rem;
         margin-right: 8rem;
+        font-size: 1.5rem;
     }
+
+    .social-icon {
+        font-size: 3vh;
+        font-size: 3vw;
+      }
 
 }
