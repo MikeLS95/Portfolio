@@ -59,7 +59,7 @@ h3, h4 {
 }
 
 p {
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .content {
@@ -76,6 +76,32 @@ p {
 }
 
 .content img {
+    display:flex;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 8vh;
+    border: 2px solid gray;
+    margin: 10px;
+}
+
+.blog1 img {
+    border: 0;
+}
+
+.blog-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(175, 179, 179);
+    font-size: 1.3rem;
+}
+
+.blog-content img {
     display:flex;
     width: 5rem;
     height: 5rem;
@@ -146,8 +172,19 @@ footer {
         margin-right: 8rem;
         font-size: 1.4rem;
     }
-    
+
+    .blog-content{
+        margin-left: 8rem;
+        margin-right: 8rem;
+        font-size: 1.4rem;
+    }
+   
     .content img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .blog-content img {
         width: 7rem;
         height: 7rem;
     }
@@ -174,11 +211,6 @@ footer {
         font-size: larger;
     }
 
-    .content img {
-        width: 10rem;
-        height: 10rem;
-    }
-
     header {
         font-size: 1.5rem;
     }
@@ -187,11 +219,35 @@ footer {
         margin-left: 10rem;
         margin-right: 10rem;
         font-size: 1.5rem;
+        order: 1;
     }
 
-    .blog {
-        flex-flow: row wrap;
-        justify-content: start;
+    .content img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #blog {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0.1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .blog-content img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .blog-content {
+        font-size: 1.5rem;
+    }
+    
+    .blog1 {
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
     footer {
