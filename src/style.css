@@ -65,6 +65,7 @@ h3, h4 {
 p {
     margin: 1.1rem;
 }
+
 /* Main content styling used across all pages for mobile viewports */
 .content {
     display:flex;
