@@ -5,10 +5,12 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+/* Body style */
 body {
     background-color: rgb(213, 220, 221);
 }
 
+/* Navigation bar styling for mobile view */
 nav {
     display: flex;
     flex-direction: row;
@@ -40,6 +42,7 @@ nav > div > a:hover {
     color: purple;
 }
 
+/* header style  */
 header {
     display: flex;
     flex-direction: row;
@@ -62,7 +65,7 @@ h3, h4 {
 p {
     margin: 1.1rem;
 }
-
+/* Main content styling used across all pages for mobile viewports */
 .content {
     display:flex;
     flex-direction: column;
@@ -85,6 +88,7 @@ p {
     margin: 10px;
 }
 
+/* styling for contact form */
 .contact {
     display:flex;
     flex-direction: column;
@@ -96,6 +100,7 @@ p {
     font-size: 1.3rem;
 }
 
+/* styling for content inside contact form */
 .textfield {
     font-size: 1.3rem;
     border-radius: 0.5rem;
@@ -106,6 +111,7 @@ label {
     flex-direction: column;
 }
 
+/* style for the button in contact form */
 button {
     font-size: 1.5rem;
     border-radius: 0.5rem;
@@ -119,10 +125,12 @@ button:hover {
     color: black;
 }
 
+/* image styling to differentiate the 5th blog post but not change the other images in blog.html */
 .blog1 img {
     border: 0;
 }
 
+/* styling used for blog.html */
 .blog-content {
     display:flex;
     flex-direction: column;
@@ -136,6 +144,7 @@ button:hover {
     font-size: 1.3rem;
 }
 
+/* styling used for all images in blog.html excluding blog1 */
 .blog-content img {
     display:flex;
     width: 5rem;
@@ -145,6 +154,7 @@ button:hover {
     margin: 10px;
 }
 
+/* styling for resume link on history.html  */
 .resume {
     padding-bottom: 1.5rem;
 }
@@ -159,6 +169,7 @@ button:hover {
     color: rgb(55, 55, 182);
 }
 
+/* footer styling used across the website */
 footer {
     display: flex;
     justify-content: space-around;
@@ -191,6 +202,7 @@ footer {
     font-size: 7vw;
   }
 
+  /* tablet view  */
 @media only screen and (min-width:663px) and (max-width:1250px){
 
     nav div {
@@ -248,6 +260,7 @@ footer {
       }
 }
 
+/* desktop view  */
 @media only screen and (min-width:1251px) {
     
     nav div {
@@ -286,7 +299,8 @@ footer {
     .textfield {
         font-size: 1.5rem;
     }
-
+    
+    /* styling for turning content into a grid on blog.html while in desktop view */
     #blog {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
