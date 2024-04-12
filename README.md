@@ -1,5 +1,18 @@
-Purpose
+# Links
 
-The purpose of ths website is to display my ability to use both HTML and CSS.
+Github Link: https://github.com/MikeLS95/Portfolio
 
-I have used styled elements throughout the website to give 
+# Purpose
+
+
+
+# Functionality / Features
+
+# Screenshots
+
+# Sitemap
+
+# Target Audience
+
+# Tech stack
+
