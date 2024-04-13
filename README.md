@@ -28,21 +28,179 @@ The final navigation option on my nav bar will take you to the webpage Blog.  On
 
 ### Mobile
 
+Home
+
+![HomeMobile](/docs/Webpages/Home%20-%20Mobile.jpeg)
+
+About Me
+
+![AboutMeMobile](/docs/Webpages/About%20me%20-%20Mobile.jpeg)
+
+History
+
+![HistoryMobile](/docs/Webpages/History%20-%20Mobile.jpeg)
+
+Blog
+
+![BlogMobile](/docs/Webpages/Blog%20-%20Mobile.jpeg)
+
+Blog - Coder Academy
+
+![CoderAcademyMobile](/docs/Webpages/Coder%20Academy%20-%20Mobile.jpeg)
+
+Blog - Wings Flight Academy
+
+![WingsMobile](/docs/Webpages/Wings%20-%20Mobile.JPG)
+
+Blog - Snowboarding in Victoria
+
+![VictoriaMobile](/docs/Webpages/Vitoria%20-%20Mobile.jpeg)
+
+Blog - Time in Canada
+
+![CanadaMobile](/docs/Webpages/Canada%20-%20Mobile.jpeg)
+
+Blog - New Car
+
+![NewCarMobile](/docs/Webpages/New%20Car%20-%20Mobile.jpeg)
+
 ### Tablet
 
+Home
+
+![HomeTablet](/docs/Webpages/Home%20-%20Tablet.jpeg)
+
+About Me
+
+![AboutMeTablet](/docs/Webpages/About%20me%20-%20Tablet.jpeg)
+
+History
+
+![HistoryTablet](/docs/Webpages/History%20-%20Tablet.jpeg)
+
+Blog
+
+![BlogTablet](/docs/Webpages/Blog%20-%20Tablet.jpeg)
+
+Blog - Coder Academy
+
+![CoderAcademyTablet](/docs/Webpages/Coder%20Academy%20-%20Tablet.jpeg)
+
+Blog - Wings Flight Academy
+
+![WingsTablet](/docs/Webpages/Wings%20-%20Tablet.JPG)
+
+Blog - Snowboarding in Victoria
+
+![VictoriaTablet](/docs/Webpages/Victoria%20-%20Tablet.jpeg)
+
+Blog - Time in Canada
+
+![CanadaTablet](/docs/Webpages/Canada%20-%20Tablet.jpeg)
+
+Blog - New Car
+
+![NewCarTablet](/docs/Webpages/Newcar%20-%20Tablet.jpeg)
+
 ### Desktop
+
+Home
+
+![HomeDesktop](/docs/Webpages/Home%20-%20Desktop.jpeg)
+
+About Me
+
+![AboutMeDesktop](/docs/Webpages/About%20me%20-%20Desktop.jpeg)
+
+History
+
+![HistoryDesktop](/docs/Webpages/History%20-%20Desktop.jpeg)
+
+Blog
+
+![BlogDesktop](/docs/Webpages/Blog%20-%20Desktop.jpeg)
+
+Blog - Coder Academy
+
+![CoderAcademyDesktop](/docs/Webpages/Coder%20Academy%20-%20Desktop.jpeg)
+
+Blog - Wings Flight Academy
+
+![WingsDesktop](/docs/Webpages/Wings%20-%20Desktop.JPG)
+
+Blog - Snowboarding in Victoria
+
+![VictoriaDesktop](/docs/Webpages/Victoria%20-%20Desktop.jpeg)
+
+Blog - Time in Canada
+
+![CanadaDesktop](/docs/Webpages/Canada%20-%20Desktop.jpeg)
+
+Blog - New Car
+
+![NewCarDesktop](/docs/Webpages/New%20car%20-%20Desktop.jpeg)
+
 
 ## Wireframe
 
 ### Mobile
 
+Home
+
+![HomeMobile](/docs/Wireframe/Home%20page%20-%20Mobile.JPG)
+
+About me
+
+![AboutMeMobile](/docs/Wireframe/About%20me%20-%20Mobile.JPG)
+
+History 
+
+![HistoryMobile](/docs/Wireframe/History%20-%20Mobile.JPG)
+
+Blog
+
+![BlogMobile](/docs/Wireframe/Blog%20-%20Mobile.JPG)
+
 ### Tablet
+
+Home
+
+![HomeTablet](/docs/Wireframe/Home%20page%20-%20Tablet.JPG)
+
+About me
+
+![AboutMeTablet](/docs/Wireframe/About%20me%20-%20Tablet.JPG)
+
+History 
+
+![HistoryTablet](/docs/Wireframe/History%20-%20Tablet.JPG)
+
+Blog
+
+![BlogTablet](/docs/Wireframe/Blog%20-%20Tablet.JPG)
 
 ### Desktop
 
+Home
+
+![HomeDesktop](/docs/Wireframe/Home%20page%20-%20Desktop.JPG)
+
+About me
+
+![AboutMeDesktop](/docs/Wireframe/About%20me%20-%20%20Desktop.JPG)
+
+History 
+
+![HistoryDesktop](/docs/Wireframe/History%20-%20Desktop.JPG)
+
+Blog
+
+![BlogDesktop](/docs/Wireframe/Blog%20-%20Desktop.JPG)
+
+
 # Sitemap
 
-![Sitemap](./docs/)
+![Sitemap](/docs/Sitemap.drawio.png)
 
 # Target Audience
 
